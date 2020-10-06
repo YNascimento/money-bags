@@ -1,10 +1,11 @@
 import React from 'react';
-import {Container, AppTitle} from './styles'
+import {Container, AppTitle, Icon} from './styles'
 
 const Header: React.FC = () => {
     return(
         <Container>
-            <AppTitle>Test header</AppTitle>
+            <AppTitle>Money Bags</AppTitle>
+            <Icon className="fas fa-shopping-bag fa-2x"></Icon>
         </Container>
         
     );
